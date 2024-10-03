@@ -1,0 +1,195 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('../img/sfondo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(233, 233, 233, 0.8); /* Aggiunge un leggero sfondo semi-trasparente al container */
+}
+
+header {
+    background-color: rgba(0, 160, 198, 0.9);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+article, aside section {
+    background-color: rgba(255, 255, 255, 0.9); /* Rende le cards leggermente trasparenti */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #00a0c6;
+    margin-bottom: 15px;
+}
+
+.meta {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+tr th{
+    background-color: #00a0c6;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+iframe {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+
+
+aside {
+    flex: 1;
+}
+
+aside section {
+    background-color: rgba(255, 255, 255, 0.9); /* Rende le cards leggermente trasparenti */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    color: #00a0c6;
+    margin-bottom: 15px;
+}
+
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #00a0c6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+aside article {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+aside article h4 {
+    color: #00a0c6;
+    margin-bottom: 5px;
+}
+
+aside article p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer {
+    background-color: #005a71;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #00a0c6;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    
+    aside {
+        order: -1;
+    }
+}
+
+code {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+}
+
